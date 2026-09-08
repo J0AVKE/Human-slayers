@@ -1,0 +1,3 @@
+C:/Users/User/Documents/shootter/build/CMakeFiles/Shootter.dir
+C:/Users/User/Documents/shootter/build/CMakeFiles/edit_cache.dir
+C:/Users/User/Documents/shootter/build/CMakeFiles/rebuild_cache.dir

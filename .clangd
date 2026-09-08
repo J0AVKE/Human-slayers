@@ -1,0 +1,13 @@
+CompileFlags:
+  Add:
+    - -std=c++20
+    - -D__GNUC__
+    - -D_WIN32
+    - -isystem
+    - C:/msys64/ucrt64/include/c++/16.2.0
+    - -isystem
+    - C:/msys64/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32
+    - -isystem
+    - C:/msys64/ucrt64/include
+    - -isystem
+    - C:/msys64/ucrt64/include/SDL3

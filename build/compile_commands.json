@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/User/Documents/shootter/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe    -o CMakeFiles\\Shootter.dir\\src\\main.cpp.obj -c C:\\Users\\User\\Documents\\shootter\\src\\main.cpp",
+  "file": "C:/Users/User/Documents/shootter/src/main.cpp",
+  "output": "CMakeFiles/Shootter.dir/src/main.cpp.obj"
+}
+]
