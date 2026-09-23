@@ -116,41 +116,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Shootter
+# Target rules for targets named MyExecutable
 
 # Build rule for target.
-Shootter: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Shootter
-.PHONY : Shootter
+MyExecutable: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MyExecutable
+.PHONY : MyExecutable
 
 # fast build rule for target.
-Shootter/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Shootter.dir\build.make CMakeFiles/Shootter.dir/build
-.PHONY : Shootter/fast
-
-src/main.obj: src/main.cpp.obj
-.PHONY : src/main.obj
-
-# target to build an object file
-src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Shootter.dir\build.make CMakeFiles/Shootter.dir/src/main.cpp.obj
-.PHONY : src/main.cpp.obj
-
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
-
-# target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Shootter.dir\build.make CMakeFiles/Shootter.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
-
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
-
-# target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Shootter.dir\build.make CMakeFiles/Shootter.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+MyExecutable/fast:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\MyExecutable.dir\build.make src/CMakeFiles/MyExecutable.dir/build
+.PHONY : MyExecutable/fast
 
 # Help Target
 help:
@@ -160,10 +136,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Shootter
-	@echo ... src/main.obj
-	@echo ... src/main.i
-	@echo ... src/main.s
+	@echo ... MyExecutable
 .PHONY : help
 
 

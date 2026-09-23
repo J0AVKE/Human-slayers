@@ -1,8 +1,32 @@
 [
 {
-  "directory": "C:/Users/User/Documents/shootter/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe    -o CMakeFiles\\Shootter.dir\\src\\main.cpp.obj -c C:\\Users\\User\\Documents\\shootter\\src\\main.cpp",
+  "directory": "C:/Users/User/Documents/shootter/build/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles/MyExecutable.dir/includes_CXX.rsp  -o CMakeFiles\\MyExecutable.dir\\main.cpp.obj -c C:\\Users\\User\\Documents\\shootter\\src\\main.cpp",
   "file": "C:/Users/User/Documents/shootter/src/main.cpp",
-  "output": "CMakeFiles/Shootter.dir/src/main.cpp.obj"
+  "output": "src/CMakeFiles/MyExecutable.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/Documents/shootter/build/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles/MyExecutable.dir/includes_CXX.rsp  -o CMakeFiles\\MyExecutable.dir\\Entities\\Animations.cpp.obj -c C:\\Users\\User\\Documents\\shootter\\src\\Entities\\Animations.cpp",
+  "file": "C:/Users/User/Documents/shootter/src/Entities/Animations.cpp",
+  "output": "src/CMakeFiles/MyExecutable.dir/Entities/Animations.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/Documents/shootter/build/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles/MyExecutable.dir/includes_CXX.rsp  -o CMakeFiles\\MyExecutable.dir\\Entities\\Collisions.cpp.obj -c C:\\Users\\User\\Documents\\shootter\\src\\Entities\\Collisions.cpp",
+  "file": "C:/Users/User/Documents/shootter/src/Entities/Collisions.cpp",
+  "output": "src/CMakeFiles/MyExecutable.dir/Entities/Collisions.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/Documents/shootter/build/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles/MyExecutable.dir/includes_CXX.rsp  -o CMakeFiles\\MyExecutable.dir\\Entities\\Enemy.cpp.obj -c C:\\Users\\User\\Documents\\shootter\\src\\Entities\\Enemy.cpp",
+  "file": "C:/Users/User/Documents/shootter/src/Entities/Enemy.cpp",
+  "output": "src/CMakeFiles/MyExecutable.dir/Entities/Enemy.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/Documents/shootter/build/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles/MyExecutable.dir/includes_CXX.rsp  -o CMakeFiles\\MyExecutable.dir\\Entities\\Health.cpp.obj -c C:\\Users\\User\\Documents\\shootter\\src\\Entities\\Health.cpp",
+  "file": "C:/Users/User/Documents/shootter/src/Entities/Health.cpp",
+  "output": "src/CMakeFiles/MyExecutable.dir/Entities/Health.cpp.obj"
 }
 ]
